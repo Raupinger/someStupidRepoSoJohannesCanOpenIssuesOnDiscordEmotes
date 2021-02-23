@@ -1,0 +1,14 @@
+  
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'Toll, dass du zur Verbesserung von Florians GIFs beiträgst'
+        pr-message: 'Toll, dass du zur an Florians GIFs mitarbeitest'
