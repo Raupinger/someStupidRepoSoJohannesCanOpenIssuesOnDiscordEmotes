@@ -11,4 +11,4 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: 'Toll, dass du zur Verbesserung von Florians GIFs beiträgst'
-        pr-message: 'Toll, dass du zur an Florians GIFs mitarbeitest'
+        pr-message: 'Toll, dass du an Florians GIFs mitarbeitest'
